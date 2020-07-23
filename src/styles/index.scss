@@ -1,0 +1,6 @@
+@import "./icedesign.scss";
+// 全局引入fusion design自定义样式
+// 注：不再配置babel-plugin-import，因为会导致自定义样式被覆盖
+// https://fusion.design/component/doc/3077
+@import "~@alifd/theme-12270/dist/next.css";
+@import "./global.scss";

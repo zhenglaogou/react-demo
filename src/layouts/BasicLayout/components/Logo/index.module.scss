@@ -1,0 +1,17 @@
+@import "~@alifd/theme-12270/variables.scss";
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $color-brand1-6;
+  font-weight: bold;
+  font-size: 36px;
+  &:visited,
+  &:link {
+    color: $color-brand1-6;
+  }
+  &:active {
+    text-decoration: none;
+  }
+}
